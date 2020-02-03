@@ -1,6 +1,6 @@
 {
   "name": "scarlet-notes-to-markdown",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Converts a Scarlet Notes backup to flat Markdown files",
   "main": "dist/index.js",
   "bin": "dist/cli.js",
