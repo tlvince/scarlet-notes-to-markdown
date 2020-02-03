@@ -1,0 +1,58 @@
+{
+  "name": "scarlet-notes-to-markdown",
+  "version": "0.0.0",
+  "description": "Converts a Scarlet Notes backup to flat Markdown files",
+  "main": "dist/index.js",
+  "bin": "dist/cli.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "yarn eslint && yarn prettier --check",
+    "lint:fix": "yarn eslint --fix && yarn prettier --write",
+    "eslint": "eslint '**/*.{js,jsx,ts,tsx,json}'",
+    "prettier": "prettier '**/*.{js,jsx,ts,tsx,json,css,md}'",
+    "test": "jest --passWithNoTests",
+    "test:smoke": "echo help me write one"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlvince/scarlet-notes-to-markdown.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
+  "bugs": {
+    "url": "https://github.com/tlvince/scarlet-notes-to-markdown/issues"
+  },
+  "homepage": "https://github.com/tlvince/scarlet-notes-to-markdown#readme",
+  "files": [
+    "dist/"
+  ],
+  "engines": {
+    "npm": ">=6.12",
+    "node": ">=10",
+    "yarn": ">=1.19"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.8.4",
+    "@babel/plugin-transform-regenerator": "7.8.3",
+    "@babel/plugin-transform-runtime": "7.8.3",
+    "@babel/preset-env": "7.8.4",
+    "@babel/preset-typescript": "7.8.3",
+    "@babel/runtime": "7.8.4",
+    "@commitlint/config-conventional": "8.3.4",
+    "@types/jest": "25.1.1",
+    "@types/node": "13.5.3",
+    "babel-jest": "25.1.0",
+    "commitlint": "8.3.5",
+    "eslint": "6.8.0",
+    "eslint-config-tlvince": "2.0.74",
+    "husky": "4.2.1",
+    "jest": "25.1.0",
+    "lint-staged": "10.0.7",
+    "prettier": "1.19.1",
+    "typescript": "3.7.5"
+  }
+}
