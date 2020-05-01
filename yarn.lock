@@ -2424,10 +2424,10 @@ eslint-config-prettier@6.11.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-tlvince@2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-tlvince/-/eslint-config-tlvince-2.1.3.tgz#1a9779a26e88d303c00c15f5ccf88078f0dda538"
-  integrity sha512-CPAQjSOlretikyYx/W4p56fLyZpuXNrCAUhxm551pogs7DAiyXrB2++wteRjl2TywuC22GeVw4hYsEcbcAyz8A==
+eslint-config-tlvince@2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-tlvince/-/eslint-config-tlvince-2.1.5.tgz#0fc29fbce4a2220fa3ca5d0a03c002e9906a2778"
+  integrity sha512-Iw3ga+DqwOrC6xaG5LrOrEKijSP/bcOFRJ+3OsHnQkUJp2BaLtNaGd25NCamQ5I18zbBAHflPSfkg67K1KBuEA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "2.30.0"
     "@typescript-eslint/parser" "2.30.0"
