@@ -9,7 +9,7 @@ if (!(inputPath && outputPath)) {
   process.exit(1)
 }
 
-convert(inputPath, outputPath).catch(error => {
+convert(inputPath, outputPath).catch((error) => {
   console.error(error)
   process.exit(1)
 })
