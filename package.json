@@ -46,7 +46,7 @@
     "@types/jest": "26.0.24",
     "@types/node": "16.4.1",
     "babel-jest": "27.0.6",
-    "commitlint": "12.1.4",
+    "commitlint": "13.1.0",
     "eslint": "7.31.0",
     "eslint-config-tlvince": "2.1.40",
     "husky": "7.0.1",
